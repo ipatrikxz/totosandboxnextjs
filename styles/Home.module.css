@@ -5,6 +5,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: #010c18;
+  color: #eaeaea;
 }
 
 .main {
@@ -36,7 +38,7 @@
 }
 
 .title a {
-  color: #0070f3;
+  color: #464749;
   text-decoration: none;
 }
 
@@ -95,8 +97,8 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: #b6b6b6;
+  border-color: #b6b6b6;
 }
 
 .card h3 {
