@@ -1,7 +1,8 @@
-import Navbar from "../components/Navbar";
-import NextAuthSessionProvider from "../providers/sessionProvider";
-import "./globals.css";
 import React from "react";
+import "./globals.css";
+
+import NextAuthSessionProvider from "../providers/sessionProvider";
+import Navbar from "../components/Navbar";
 
 export default function RootLayout({
   children,
@@ -9,12 +10,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html>
+    <html lang="eng">
       <head></head>
       <body>
         <NextAuthSessionProvider>
           <Navbar />
-          {children}
+          <div className="container">{children}</div>
         </NextAuthSessionProvider>
       </body>
     </html>
